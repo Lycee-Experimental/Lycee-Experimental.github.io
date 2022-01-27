@@ -77,7 +77,7 @@ python manage.py runserver
 >
 > December 15, 2021 - 17:55:40
 >
-> Django version 4.0, using settings 'djangoLxp.settings'
+> Django version 4.0, using settings 'django-lxp.settings'
 >
 > Starting development server at http://127.0.0.1:8000/
 >
