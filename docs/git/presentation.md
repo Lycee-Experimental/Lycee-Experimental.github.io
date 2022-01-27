@@ -26,5 +26,7 @@ ou d'autres services en ligne.
 ## Fonctionnement
 
 Un livre très complete vous permettra d'en savoir plus sur le fonctionnement de Git :
-[télécharger](https://github.com/progit/progit2-fr/releases/download/2.1.68/progit.epub)
+[télécharger en cliquant ici](https://github.com/progit/progit2-fr/releases/download/2.1.68/progit.epub)
 
+### Diagramme de fonctionnement
+![](https://git-scm.com/book/en/v2/images/lifecycle.png)
