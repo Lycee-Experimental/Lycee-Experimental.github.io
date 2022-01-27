@@ -4,7 +4,7 @@ site_description: 'La documentation du LXP'
 site_dir: docs-build
 
 theme:
-  name: readthedocs
+  name: material
   locale: fr
 
 extra_css:
