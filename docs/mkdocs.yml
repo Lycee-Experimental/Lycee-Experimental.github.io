@@ -8,6 +8,8 @@ theme:
   language: fr
   palette:
     scheme: slate
+    primary: red
+    accent: red
 
 extra_css:
   - 'css/extra.css'
