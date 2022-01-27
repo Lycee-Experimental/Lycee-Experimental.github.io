@@ -5,16 +5,9 @@ docs_dir: ../docs/
 
 theme:
   name: material
-  locale: fr
+  language: fr
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Mode sombre
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Mode clair
+    scheme: default
 
 extra_css:
   - 'css/extra.css'

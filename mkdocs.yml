@@ -5,7 +5,9 @@ site_dir: docs-build
 
 theme:
   name: material
-  locale: fr
+  language: fr
+  palette:
+    scheme: default
 
 extra_css:
   - 'css/extra.css'

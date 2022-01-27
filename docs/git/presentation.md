@@ -1,4 +1,5 @@
-# Présentation
+# Introduction
+## Présentation
 Git est un **logiciel de gestion de versions décentralisé** (ou DVCS en anglais, pour Distributed Version Control System).
 
 Un VCS permet de stocker un ensemble de fichiers en conservant la chronologie de toutes les modifications qui ont été effectuées dessus. Il permet ainsi de retrouver les différentes versions d'un projet.
