@@ -4,10 +4,8 @@ site_description: 'La docu du Lycée Expérimental'
 docs_dir: ../docs/
 
 theme:
-  name: 'material'
-  palette:
-    primary: 'blue'
-    accent: 'lightblue'
+  name: 'readthedocs'
+  locale: 'fr'
 
 extra_css:
   - 'css/extra.css'

@@ -4,10 +4,8 @@ site_description: 'La documentation du LXP'
 site_dir: docs-build
 
 theme:
-  name: 'material'
-  palette:
-    primary: 'blue'
-    accent: 'lightblue'
+  name: 'readthedocs'
+  locale: 'fr'
 
 extra_css:
   - 'css/extra.css'
