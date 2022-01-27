@@ -80,14 +80,17 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Accueil: index.md
   - Git:
-      - Présentation: git/presentation.md.md
+      - Présentation: git/presentation.md
+      - Utilisation: git/utilisation.md
       - Commandes: git/commandes.md
   - Pycharm:
       - Installation: pycharm/install-pycharm.md
       - Utilisation avec Github: pycharm/Utilisation-github_pycharm.md
-  - Dajango-LXP:
+  - Django-LXP:
       - Déploiement local: djangolxp/deploiement-local.md
       - Ajout de champs au formulaires: djangolxp/ajout-champs.md
       - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
+  - Renpy:
+      - Décompiler un jeu: renpy/decompile.md

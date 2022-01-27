@@ -1,4 +1,5 @@
 # Introduction
+
 ## Présentation
 Git est un **logiciel de gestion de versions décentralisé** (ou DVCS en anglais, pour Distributed Version Control System).
 
@@ -10,16 +11,20 @@ Pour info il existe d'autres VCS : SVN ou CVS (centralisé), Mercurial (décentr
 
 ## Historique
 
-Git un logiciel libre créé en 2005 par Linus Torvalds pour développer le noyau Linux (1991).
+Git un logiciel libre créé en 2005 par Linus Torvalds pour développer le noyau Linux (créé en 1991).
 
 Pour la petite histoire, le magazine [PC World](https://www.pcworld.com/) nous apprend que quand on lui a demandé pourquoi il avait appelé son logiciel `git`, qui est à peu près l’équivalent de “connard” en argot britannique, Linus Torvalds a répondu :
 
-    Je ne suis qu’un sale égocentrique, 
-    donc j’appelle tous mes projets d’après ma propre personne. 
+    Je ne suis qu'un sale égocentrique, 
+    donc j'appelle tous mes projets d'après ma propre personne. 
     D’abord Linux, puis Git.
 
-Git est devenu le VCS le plus utilisé par les développeur·euses.
+Git est depuis devenu le VCS le plus utilisé par les développeur·euses, que ce soit avec Github, Gitlab, Bitbucket
+ou d'autres services en ligne. 
 
-## Principe
 
-Révision (eng. commit)
+## Fonctionnement
+
+Un livre très complete vous permettra d'en savoir plus sur le fonctionnement de Git :
+[télécharger](https://github.com/progit/progit2-fr/releases/download/2.1.68/progit.epub)
+
