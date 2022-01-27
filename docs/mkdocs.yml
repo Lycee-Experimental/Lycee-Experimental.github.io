@@ -4,8 +4,8 @@ site_description: 'La docu du Lycée Expérimental'
 docs_dir: ../docs/
 
 theme:
-  name: 'readthedocs'
-  locale: 'fr'
+  name: readthedocs
+  locale: fr
 
 extra_css:
   - 'css/extra.css'
