@@ -25,8 +25,8 @@ ou d'autres services en ligne.
 
 ## Fonctionnement
 
-Un livre très complete vous permettra d'en savoir plus sur le fonctionnement de Git :
-[télécharger en cliquant ici](https://git-scm.com/book/fr/v2)
+[Ce livre très complet](https://git-scm.com/book/fr/v2) vous permettra d'en savoir plus sur le fonctionnement de Git.
+
 
 ### Diagramme de fonctionnement
-![](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![](https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-git/_images/git-states2.svg)
