@@ -1,5 +1,5 @@
 # Affichage de la fiche d'inscription
-La fiche inscription au format html est accessible à l'adresse https://inscription.cf/fiche/1/xxxxxxx ou 1 est l'id d'une fiche d'inscription, et xxxxx son hash. Le pdf est téléchargeable à l'adresse : https://inscription.cf/pdf/1/xxxxxxx
+La fiche inscription au format html est accessible à l'adresse `https://inscription.cf/fiche/1/xxxxxxx` ou 1 est l'id d'une fiche d'inscription, et xxxxx son hash. Le pdf est téléchargeable à l'adresse : `https://inscription.cf/pdf/1/xxxxxxx`
 
 ## Template
 Le fichier modèle (template) de la fiche d'inscription (au format html comme pdf) est le suivant : [`templates/inscription/fiche_inscription.html`](https://github.com/Lycee-Experimental/django-lxp/blob/main/templates/inscription/fiche_inscription.html)
