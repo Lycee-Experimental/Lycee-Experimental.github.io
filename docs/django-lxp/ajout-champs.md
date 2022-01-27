@@ -1,3 +1,4 @@
+# Ajout de champs avec Django
 ## Création de champs dans la base : [models.py](https://github.com/Lycee-Experimental/django-lxp/blob/main/inscription/models.py)
 Les champs de la base élèves sont à définir dans le fichier  [models.py](https://github.com/Lycee-Experimental/django-lxp/blob/main/inscription/models.py) qui correspond à la gestion des bases de données.
 
