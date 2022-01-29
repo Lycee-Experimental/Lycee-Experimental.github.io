@@ -1,9 +1,9 @@
 title: Installer Pycharm
 
 Pour travailler sur notre projet, on utilise l'environnement de développement (Integrated Development Environment) Pycharm.
-Ce logiciel dédié au developpement python est gratuit dans sa [version communautaire](https://www.jetbrains.com/fr-fr/pycharm/download/download-thanks.html?platform=linux&code=PCC), mais payant pour avoir accès à des fonctionnalités supplémentaires, notamment pour le développement Web. Pour installer et activer la license pro en attendant de l'acquérir :
+Ce logiciel dédié au développement python est gratuit dans sa [version communautaire](https://www.jetbrains.com/fr-fr/pycharm/download/download-thanks.html?platform=linux&code=PCC), mais payant pour avoir accès à des fonctionnalités supplémentaires, notamment pour le développement Web. Pour installer et activer la license pro en attendant de l'acquérir :
 
-# Installation
+# Installation de Pycharm
 
 ```bash
 # On télécharge la version pro de l'IDE
@@ -30,12 +30,4 @@ EOT
 # On charge l'élément de menu ainsi créé 
 sudo update-desktop-database ~/.local/share/applications
 ```
-PyCharm est maintenant pret à être utilisé depuis le menu !
-
-# Configuration
-
-Il nous faut maintenant ouvrir notre projet et lui indiquer d'utiliser l'instalation de python3.9 dans notre environement virtuel.
-
-* Lancer le logiciel et ouvrir le dossier django-lxp -> `File` > `Open...`
-* Cliquer sur `<No Interpreter>` en bas à droite puis sur `Add interpreter...`
-* Sélectionner `Existing environment` et notre interpreter `Python3.9`
+Un petit redémarrage, PyCharm est maintenant prêt à être utilisé depuis le menu !

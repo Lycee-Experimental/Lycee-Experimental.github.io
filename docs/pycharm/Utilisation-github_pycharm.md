@@ -3,20 +3,7 @@
 L'objectif de cette page wiki n'est pas de remplacer la documentation de l'outil [Git](https://git-scm.com/book/fr/v2) ou de [Github](https://docs.github.com/en), mais de voir comment utiliser Github avec notre IDE **PyCharm** pour centraliser les modifications apportées au projet.
 
 
-## Création d'un compte Github
 
-Si vous n'en avez pas encore créé un, rendez-vous sur [cette page](https://github.com/join). Indiquer le nom de codeur·euse que vous souhaitez.
-
-## Intégration de l'Organisation Lycée Expérimental
-
-Pour avoir le droit d'apporter des modifications au code de django-lxp, il vous faut appartenir à l'organisation "Lycée Expérimental".
-Pour cela demander à l'un de ses membres de vous y inviter en lui indiquant le nom de votre nom de codeur·euse.
-
-Vous devriez ensuite recevoir un email pour accepter l'invitation.
-
-Ça y est, vous avez intégré l'équipe de développement du Lycée Expérimental, il s'agit maintenant de ne pas faire n'importe quoi ;)
-
-C'est donc l'objectif de la suite de cette page que de se donner quelques règles de conduite collective.
 
 ## Workflow
 
