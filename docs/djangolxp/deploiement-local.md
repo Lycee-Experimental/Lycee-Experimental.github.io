@@ -13,10 +13,10 @@ curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.p
 !!! note "Pour info"
 
     `git` est le gestionnaire de version que nous utilisons via Github [Voir ici](git/presentation.md).  
-    `gdal-bin` est une librairie dont dépend l'affichage des cartes géographiques par `django-leaflet`.
-    `libpq-dev` est nécessaire à l'installation de psycopg, la librairie python pour se connecter à une base PostgreSQL
+    `gdal-bin` est une librairie dont dépend l'affichage des cartes géographiques par `django-leaflet`.  
+    `libpq-dev` est nécessaire à l'installation de psycopg, la librairie python pour se connecter à une base PostgreSQL  
     `python3.9` est la version de Python que nous utiliserons dans un environnement virtuel.  
-    `Poetry` est un outil qui permet de mettre en place un environnement virtuel et installer les dépendances
+    `Poetry` est un outil qui permet de mettre en place un environnement virtuel et installer les dépendances  
 
 
 ## Configuration de Github dans Pycharm
