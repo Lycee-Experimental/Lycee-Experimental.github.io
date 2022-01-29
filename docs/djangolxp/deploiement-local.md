@@ -1,7 +1,7 @@
 # Développement du projet avec Pycharm
 
 ## Installation de Pycharm
-Commencer par installer [Pycharm](pycharm/install-pycharm.md)
+Commencer par installer [Pycharm](/pycharm/install-pycharm.md)
 
 ## Installation des dépendances
 Installer les dépendances nécessaires au projet. Dans un terminal:
