@@ -19,7 +19,8 @@ La valeur d'un champ de notre base est affichée avec une expression de type :
 ## CSS
 Pour modifier l'affichage de la fiche (au format html et pdf, nous pouvons nous appuyer sur les classes css existantes
 du framework bootstrap4, notamment pour la [gestion des grilles](https://getbootstrap.com/docs/4.0/layout/grid/), 
-et la [typographie](https://getbootstrap.com/docs/4.0/content/typography/).
+et la **typographie** [ici](https://getbootstrap.com/docs/4.0/content/typography/) 
+et [là](https://www.w3schools.com/bootstrap4/bootstrap_typography.asp).
 
 Il est également possible de définir des classes personnalisées dans le fichier 
 [`static/css/fiche_inscription.css`](https://github.com/Lycee-Experimental/django-lxp/blob/main/static/css/fiche_inscription.css).
