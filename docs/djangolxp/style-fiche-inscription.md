@@ -1,5 +1,5 @@
 # Affichage de la fiche d'inscription
-La fiche inscription au format html est accessible à l'adresse `https://inscription.cf/fiche/1/xxxxxxx` ou 1 est l'id 
+La fiche inscription au format html est accessible à l'adresse `https://127.0.0.1/fiche/1/xxxxxxx` ou 1 est l'id 
 d'une fiche d'inscription, et xxxxx son hash. Le pdf est téléchargeable à l'adresse : 
 `https://127.0.0.1:8000/pdf/1/xxxxxxx`
 
