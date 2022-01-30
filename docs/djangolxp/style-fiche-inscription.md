@@ -1,6 +1,8 @@
 # Affichage de la fiche d'inscription
 La fiche inscription au format html est accessible à l'adresse `https://127.0.0.1/fiche/1/xxxxxxx` ou 1 est l'id 
-d'une fiche d'inscription, et xxxxx son hash. Le pdf est téléchargeable à l'adresse : 
+d'une fiche d'inscription, et xxxxx son hash. 
+
+Le pdf est téléchargeable à l'adresse : 
 `https://127.0.0.1:8000/pdf/1/xxxxxxx`
 
 Vous pourrez soit y avoir accès à la fin de la saisie d'un nouveau formulaire, soit depuis l'interface d'administration :
@@ -17,10 +19,13 @@ La valeur d'un champ de notre base est affichée avec une expression de type :
 `{% get_verbose_field_name fiche "prenom" %}`
 
 ## CSS
-Pour modifier l'affichage de la fiche (au format html et pdf, nous pouvons nous appuyer sur les classes css existantes
+Pour modifier l'affichage de la fiche au **format html**, nous pouvons nous appuyer sur les classes css existantes
 du framework bootstrap4, notamment pour la [gestion des grilles](https://getbootstrap.com/docs/4.0/layout/grid/), 
 et la **typographie** [ici](https://getbootstrap.com/docs/4.0/content/typography/) 
 et [là](https://www.w3schools.com/bootstrap4/bootstrap_typography.asp).
+
+Pour la fiche au **format PDF**, il semblerait que Weasyprint supporte mal les CSS de Bootstrap, notamment les grilles.
+Il va peut-être falloir rédiger des classes CSS plus basiques (voir la [doc de Weasyprint](https://doc.courtbouillon.org/weasyprint/stable/api_reference.html#css)).
 
 Il est également possible de définir des classes personnalisées dans le fichier 
 [`static/css/fiche_inscription.css`](https://github.com/Lycee-Experimental/django-lxp/blob/main/static/css/fiche_inscription.css).
