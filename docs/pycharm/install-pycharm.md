@@ -27,4 +27,11 @@ EOT
 # On charge l'élément de menu ainsi créé 
 sudo update-desktop-database ~/.local/share/applications
 ```
-Un petit redémarrage, PyCharm est maintenant prêt à être utilisé depuis le menu !
+
+Un petit redémarrage (ou simplement déconnection/reconnection), PyCharm est maintenant prêt à être utilisé depuis le menu !
+
+Au premier lancement, vous tomberez sur la page d'activation de Pycharm. Il vous faudra sélectionner le mode d'essai 
+(trial version) puis vous connecter sur Jetbrains, par exemple avec **vos identifiants Github**.
+
+Si vous n'en avez pas encore créé un, rendez-vous sur [cette page](https://github.com/join). Indiquer le nom de codeur·euse que vous souhaitez.
+

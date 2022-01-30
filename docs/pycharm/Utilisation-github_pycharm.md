@@ -9,7 +9,7 @@ L'objectif de cette page wiki n'est pas de remplacer la documentation de l'outil
 
 Nous allons essayer de travailler comme le font désormais la majorité DevOps pour une intégration continue : avec un développement basé sur le tronc (trunk based development). Plus de détail [ici](https://www.atlassian.com/fr/continuous-delivery/continuous-integration/trunk-based-development).
 
-En effet pour avoir un code qui évolue rapidement par les contributions simultanés de plusieurs développeurs, nous aurons les 2 objectifs suivants :
+En effet, pour avoir un code qui évolue rapidement par les contributions simultanées de plusieurs développeurs, nous aurons les 2 objectifs suivants :
 - Conserver une version du code bien testée et fonctionnelle en production (branche `main` aka le tronc)
 - Créer des branches éphémères à chaque fois qu'on souhaite implémenter une nouvelle fonctionalité.
 
@@ -21,7 +21,7 @@ Voir un exemple ici : https://github.com/Lycee-Experimental/django-lxp/pull/2
 
 Commencer par mettre votre branche `main` à jour des dernières modifs depuis github avec un `git pull` obtenu via le raccourci en haut à gauche de pycharm : ![pull](https://i.imgur.com/JPZJgCd.png)
 
-Cliquer ensuite sur l'icone suivant en bas à droite de la fenètre de PyCharm : ![branch-icon](https://i.imgur.com/cxzQwtG.png)
+Cliquer ensuite sur l'icône suivant en bas à droite de la fenêtre de PyCharm : ![branch-icon](https://i.imgur.com/cxzQwtG.png)
 
 Puis sur `+ New Branch` pour créer une nouvelle branche dont PyCharm vous demande ensuite le nom. :
 
@@ -36,7 +36,7 @@ Avant de valider nos changements et les pousser (push) sur Github, tester locale
 ### Enregistrement des modifications dans notre nouvelle branche
 La commande `git commit` permet d'enregistrer les changements, on y accède ici avec PyCharm : ![commit](https://i.imgur.com/cP2HRTZ.png)
 
-Une fenètre s'ouvre à gauche pour indiquer les fichiers à intégrer à notre enregistrement (commit), et le commentaire à associer à ce changement, puis `COMMIT` pour les enregistrer localement, ou `COMMIT AND PUSH` pour envoyer directement sur github :
+Une fenêtre s'ouvre à gauche pour indiquer les fichiers à intégrer à notre enregistrement (commit), et le commentaire à associer à ce changement, puis `COMMIT` pour les enregistrer localement, ou `COMMIT AND PUSH` pour envoyer directement sur github :
 
 ![push](https://i.imgur.com/R5jrx2m.png)
 
