@@ -59,6 +59,7 @@ vous souhaitez le télécharger, puis cliquez sur `Clone`.
 Une fois le code source téléchargé depuis notre dépot distant Github, Pycharm va détecter le fichier `pyproject.toml`
 et donc vous proposer de mettre en place l'environnement virtuel avec Poetry.
 Cliquer sur `OK`.
+
 ![](https://i.imgur.com/pzBv48A.png)
 
 Patienter pendant que Poetry install l'ensemble des paquets nécessaires
@@ -69,31 +70,40 @@ Patienter pendant que Poetry install l'ensemble des paquets nécessaires
 ## Génération du fichier .env contenant nos clés secrètes
 Certaines clés ne doivent pas être publiées sur Github car sont personnelles (service AWS, google map...).
 On va donc les générer à partir d'un fichier encrypté `encrypted.data`
+
 - Ouvrir un terminal en cliquant en bas à gauche :
 
 ![](https://i.imgur.com/ZcxTcvb.png)
 
 - Y copier la commande suivante (`CTR+SHIFT+V` pour coller dans le terminal) :
+
 ```shell
 openssl enc -d -aes-256-cbc -in encrypted.data -out .env
 ```
-!!! Note
-Demander le mot de passe à un membre de l'équipe de développement du LXP...
+
+!!! info
+
+    Demander le mot de passe à un membre de l'équipe de développement du LXP...
 
 ## Génération de la base de donnée pour Django
 Pour commencer à utiliser localement notre application, il faut générer la base de donnée. Pour cela, 2 possibilités :
+
 - Soit entrer la commande suivante dans le terminal :
+
 ```shell
 python manage.py migrate
 ```
+
 - Soit ouvrir l'onglet manage.py à partir du menu `Tools` ou `CTL+ALT+R` :
+
   ![](https://i.imgur.com/7HvhW2h.png)
   Puis tapper simplement la commande `migrate`
   ![](https://i.imgur.com/i4Db9o7.png)
 
 ## Création d'un superutilisateur
 
-POur pouvoir accéder à l'interface d'administration de notre appli, il faut préalablement créer un superutilisateur.
+Pour pouvoir accéder à l'interface d'administration de notre appli, il faut préalablement créer un superutilisateur.
+
 - Toujours dans l'onglet `manage.py` (`CTL+ALT+R)`, entrer la commande `createsuperuser` puis renseigner un nom, email et mot de passe.
 
 ## Lancement du serveur Django

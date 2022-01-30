@@ -7,23 +7,20 @@ Ce logiciel dédié au développement python est gratuit dans sa [version commun
 
 ```bash
 # On télécharge la version pro de l'IDE
-sudo wget -c https://download-cdn.jetbrains.com/python/pycharm-professional-2021.3.tar.gz -O - | sudo tar -xz -C /opt/
+sudo wget -c https://download-cdn.jetbrains.com/python/pycharm-professional-2021.3.2.tar.gz -O - | sudo tar -xz -C /opt/
 # Son patch d'activation
-sudo wget https://github.com/Lycee-Experimental/django-lxp/raw/main/extra/fineagent.jar -O /opt/pycharm-2021.3/fineagent.jar
+sudo wget -c https://github.com/Lycee-Experimental/django-lxp/raw/main/extra/ja-netfilter-all.tar.gz -O - | sudo tar -xz -C /opt/pycharm-2021.3.2
 # on indique à l'IDE où trouver le patch
-echo "-javaagent:/opt/pycharm-2021.3/fineagent.jar" | sudo tee -a /opt/pycharm-2021.3/bin/pycharm64.vmoptions
-# On télécharge la clé d'activation dans le dossier de config
-mkdir -p ~/.config/JetBrains/PyCharm2021.3/
-wget https://github.com/Lycee-Experimental/django-lxp/raw/main/extra/pycharm.key -O ~/.config/JetBrains/PyCharm2021.3/pycharm.key
+echo "-javaagent:/opt/pycharm-2021.3.2/ja-netfilter-all/ja-netfilter.jar" | sudo tee -a /opt/pycharm-2021.3.2/bin/pycharm64.vmoptions
 # Enfin, on crée un élément de menu pour lancer notre IDE plus facilement
 cat <<EOT > ~/.local/share/applications/pycharm.desktop
 [Desktop Entry]
 Name=PyCharm
-Exec=/opt/pycharm-2021.3/bin/pycharm.sh
+Exec=/opt/pycharm-2021.3.2/bin/pycharm.sh
 Comment=Programmation python
 Terminal=false
 Categories=Development;
-Icon=/opt/pycharm-2021.3/bin/pycharm.svg
+Icon=/opt/pycharm-2021.3.2/bin/pycharm.svg
 Type=Application
 EOT
 
