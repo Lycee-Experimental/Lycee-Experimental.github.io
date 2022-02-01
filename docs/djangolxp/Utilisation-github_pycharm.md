@@ -1,8 +1,8 @@
-**Github** :octocat: est le site le plus utilisé pour la gestion des versions (historique des modifications du code) avec l'outil **Git**. Bien que racheté récemment par Microsoft, nous allons donc apprendre à l'utiliser (d'autres services basés sur git existent : Gitlab, bitbucket...).
+# Utilisation de Github avec Pycharm
+
+**Github** est le site le plus utilisé pour la gestion des versions (historique des modifications du code) avec l'outil **Git**. Bien que racheté récemment par Microsoft, nous allons donc apprendre à l'utiliser (d'autres services basés sur git existent : Gitlab, bitbucket...).
 
 L'objectif de cette page wiki n'est pas de remplacer la documentation de l'outil [Git](https://git-scm.com/book/fr/v2) ou de [Github](https://docs.github.com/en), mais de voir comment utiliser Github avec notre IDE **PyCharm** pour centraliser les modifications apportées au projet.
-
-
 
 
 ## Workflow

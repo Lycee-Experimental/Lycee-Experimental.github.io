@@ -85,12 +85,12 @@ nav:
       - Présentation: git/presentation.md
       - Utilisation: git/utilisation.md
       - Commandes: git/commandes.md
-  - Pycharm:
-      - Installation: pycharm/install-pycharm.md
-      - Utilisation avec Github: pycharm/Utilisation-github_pycharm.md
-  - Django-LXP:
-      - Déploiement local: djangolxp/deploiement-local.md
-      - Ajout de champs au formulaires: djangolxp/ajout-champs.md
-      - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
+  - Pycharm & Django-Lxp:
+      - Installation de Pycharm: djangolxp/install-pycharm.md
+      - Déploiement Django-lxp: djangolxp/deploiement-local.md
+      - Utilisation de Github: djangolxp/Utilisation-github_pycharm.md
+      - Modification de Pycharm:
+        - Ajout de champs au formulaires: djangolxp/ajout-champs.md
+        - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
   - Renpy:
       - Décompiler un jeu: renpy/decompile.md
