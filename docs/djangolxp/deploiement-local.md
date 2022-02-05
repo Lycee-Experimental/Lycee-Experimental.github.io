@@ -6,7 +6,7 @@ Commencer par installer [Pycharm](/pycharm/install-pycharm)
 ## Installation des dépendances
 Installer les dépendances nécessaires au projet. Dans un terminal :
 ```shell
-sudo apt install gdal-bin libpq-dev git python3.9-dev python3-distutils libmysqlclient-dev
+sudo apt install gdal-bin libpq-dev git python3.8-dev python3-distutils libmysqlclient-dev
 # Installation de Poetry
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
 ```
@@ -15,7 +15,7 @@ curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.p
     `git` est le gestionnaire de version que nous utilisons via Github [Voir ici](/git/presentation.md). 
     `gdal-bin` est une librairie dont dépend l'affichage des cartes géographiques par `django-leaflet`.  
     `libpq-dev` est nécessaire à l'installation de psycopg, la librairie python pour se connecter à une base PostgreSQL  
-    `python3.9-dev` est la version de Python que nous utiliserons dans un environnement virtuel, acompagnée des librairies de dévelopement.
+    `python3.8-dev` est sont librairies de dévelopement de python3.8.
     `libmysqlclient-dev` est une librairie dont dépend `mysqlclient` pour se connecter à notre base mariadb
     `python3-distutils` est requis pour le bon fonctionnement de Poetry  
     `Poetry` est un outil qui permet de mettre en place un environnement virtuel et installer les dépendances  
