@@ -7,8 +7,6 @@ Commencer par installer [Pycharm](/pycharm/install-pycharm)
 Installer les dépendances nécessaires au projet. Dans un terminal :
 ```shell
 sudo apt install gdal-bin libpq-dev git python3.9-dev python3-distutils libmysqlclient-dev
-# On définit python 3.9 par défaut
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
 # Installation de Poetry
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
 ```
