@@ -69,9 +69,10 @@ Patienter pendant que Poetry install l'ensemble des paquets nécessaires
 ![](https://i.imgur.com/IO9aeky.png)
 
 
-## Génération du fichier .env contenant nos clés secrètes
+## Génération du fichier .env contenant nos clés secrètes, et des données initiales
 Certaines clés ne doivent pas être publiées sur Github car sont personnelles (service AWS, google map...).
-On va donc les générer à partir d'un fichier encrypté `encrypted.data`
+On va donc les générer à partir d'un fichier encrypté `encrypted.data`.
+On télécharge ensuite les données initiales sous forme de json qui sont aussi encryptées.
 
 - Ouvrir un terminal en cliquant en bas à gauche :
 
@@ -81,6 +82,9 @@ On va donc les générer à partir d'un fichier encrypté `encrypted.data`
 
 ```shell
 openssl enc -d -aes-256-cbc -in encrypted.data -out .env
+export $(cat .env | xargs)
+mkdir data
+curl "https://gist.githubusercontent.com/davy39/c382e6a01e0b15a3be883bbfd4863627/raw/c875f335cc2b2d8f58adf9c6ff3545184f609afd/secured.tar.gz"  | openssl enc -d -aes256 -pbkdf2 -pass pass:$SECRET_KEY | tar xz -C data
 ```
 
 !!! info
