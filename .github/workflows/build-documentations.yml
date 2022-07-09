@@ -72,6 +72,6 @@ jobs:
         git status
         git add -A
         git commit -m "Automated documentation build $GIT_COMMIT"
-        git push origin $DEPLOY_BRANCH
+        git push -f origin $DEPLOY_BRANCH
         cd ..
         
