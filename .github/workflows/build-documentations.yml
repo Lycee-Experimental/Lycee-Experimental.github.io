@@ -70,7 +70,6 @@ jobs:
         mv .git BUILD/.git
         cd BUILD
         git status
-        git pull
         git add -A
         git commit -m "Automated documentation build $GIT_COMMIT"
         git push origin $DEPLOY_BRANCH
