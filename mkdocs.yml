@@ -1,7 +1,7 @@
 site_name: DocuLXP
-site_description: 'La documentation du LXP'
+site_description: 'La docu du Lycée Expérimental'
 
-site_dir: docs-build
+docs_dir: ../docs/
 
 theme:
   name: material
@@ -10,22 +10,7 @@ theme:
     scheme: slate
     primary: red
     accent: red
-  features:
-    - content.code.annotate
-    # - content.tabs.link
-    # - header.autohide
-    # - navigation.expand
-    - navigation.indexes
-    # - navigation.instant
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    # - toc.integrate
+
 extra_css:
   - 'css/extra.css'
 extra_javascript:
@@ -36,62 +21,11 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Lycee-Experimental
 
-
-# Extensions
 markdown_extensions:
   - admonition
-  - abbr
-  - attr_list
-  - def_list
-  - footnotes
-  - meta
-  - md_in_html
+  - codehilite:
+      css_class: code
+      use_pygments: false
+      guess_lang: false
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-
-# Page tree
-nav:
-  - Accueil: index.md
-  - Git:
-      - Présentation: git/presentation.md
-      - Utilisation: git/utilisation.md
-      - Commandes: git/commandes.md
-  - Pycharm & Django-Lxp:
-      - Installation de Pycharm: djangolxp/install-pycharm.md
-      - Déploiement Django-lxp: djangolxp/deploiement-local.md
-      - Utilisation de Github: djangolxp/Utilisation-github_pycharm.md
-  - Développement de Django-Lxp:
-      - Ajout de champs au formulaires: djangolxp/ajout-champs.md
-      - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
-      - Afficher/filtrer les listes d'élèves: djangolxp/tableau-filtre.md
-  - Renpy:
-      - Décompiler un jeu: renpy/decompile.md
