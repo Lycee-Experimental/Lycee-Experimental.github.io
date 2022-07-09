@@ -90,8 +90,8 @@ nav:
       - Déploiement Django-lxp: djangolxp/deploiement-local.md
       - Utilisation de Github: djangolxp/Utilisation-github_pycharm.md
   - Développement de Django-Lxp:
-        - Ajout de champs au formulaires: djangolxp/ajout-champs.md
-        - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
-        - Afficher/filtrer les listes d'élèves: djangolxp/tableau-filtre.md
+      - Ajout de champs au formulaires: djangolxp/ajout-champs.md
+      - Affichage de la fiche d'inscription: djangolxp/style-fiche-inscription.md
+      - Afficher/filtrer les listes d'élèves: djangolxp/tableau-filtre.md
   - Renpy:
       - Décompiler un jeu: renpy/decompile.md
