@@ -3,7 +3,9 @@
 Une fois les données entrées dans la base, il nous faut pouvoir les afficher.
 
 Dans un premier temps, 2 objectifs sont à atteindre :
+
 - Pouvoir faire des recherches dans la base sur différents critères (nom, niveau, spé...)
+
 - Générer des tableaux que l'on puisse ensuite imprimer sur le même type de critères (listes des élèves par GB, par niveaux, par spé...)
 
 
@@ -38,6 +40,7 @@ urlpatterns = [
 ```
 
 - http://localhost:8000/inscriptions permet de faire des recherches dynamiques
+
 - http://localhost:8000/inscriptions_table permet de générer les tableaux à imprimer.
 
 
@@ -213,6 +216,7 @@ C'est là qu'on défini la structure des pages qui affichent les tableaux.
 
 _Remarque_ : Le titre de la page doit être passé à l'url, par exemple :
 http://localhost:8000/inscriptions_table?titre=Groupe de Base 1&gb_annee_en_cours=1
+
 ```
 {% extends 'base.html' %}
 {% load crispy_forms_tags i18n %}
