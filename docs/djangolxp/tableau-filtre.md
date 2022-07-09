@@ -213,7 +213,7 @@ C'est là qu'on défini la structure des pages qui affichent les tableaux.
 
 _Remarque_ : Le titre de la page doit être passé à l'url, par exemple :
 http://localhost:8000/inscriptions_table?titre=Groupe de Base 1&gb_annee_en_cours=1
-```html
+```
 {% extends 'base.html' %}
 {% load crispy_forms_tags i18n %}
 {% load render_table from django_tables2 %}
@@ -234,7 +234,7 @@ http://localhost:8000/inscriptions_table?titre=Groupe de Base 1&gb_annee_en_cour
 `django-lxp/template/inscription/recherche_eleves.html`
 Sans titre, avec le formulaire de recherche crispy en plus
 
-```html
+```
 {% extends 'base.html' %}
 {% load crispy_forms_tags i18n %}
 {% load render_table from django_tables2 %}
