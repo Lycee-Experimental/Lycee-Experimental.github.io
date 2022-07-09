@@ -35,7 +35,7 @@ https://github.com/Lycee-Experimental/django-lxp/blob/main/inscription/urls.py
 urlpatterns = [
     path('inscriptions', login_required(InscriptionRechercheView.as_view()), name="inscriptions"),
     path('inscriptions_table', login_required(InscriptionTableView.as_view()), name="inscriptions_table"),
- ```
+```
 
 - http://localhost:8000/inscriptions permet de faire des recherches dynamiques
 - http://localhost:8000/inscriptions_table permet de générer les tableaux à imprimer.
